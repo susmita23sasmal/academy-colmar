@@ -1,0 +1,267 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 2px solid gray;
+}
+.logo-head{
+    display: flex;
+}
+.logo-head img{
+    overflow-clip-margin: center-box;
+    overflow: clip;
+    height: 60px;
+    width: 40px;
+}
+.logo1{
+    text-transform: uppercase;
+    color: black solid;
+    font-weight: bold;
+    font-size: 40px;
+}
+.logo2{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 40px;
+}
+.logo-hear p{
+    text-align: center;
+    height: 32px;
+}
+ul{
+    float: right;
+    margin: 12px;
+    padding: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    padding: 16px;
+    white-space: 5px;
+    font-size: 60px;
+}
+ul a li:hover {
+    background-color: cornflowerblue;
+    color:aliceblue;
+}
+
+.section-1{
+    padding: 32px 24px;
+    display: flex;
+}
+div{
+    display: block;
+}
+.section-img{
+    width: auto;
+    height: auto;
+}
+.learn-text{
+    display:flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.learn-text h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.learn-text h5{
+    font-size: 25px;
+    margin: 12px 6px;
+    text-align: left;
+    color: grey;
+}
+button{
+    color: #fff;
+    background-color: grey;
+    padding: 8px 0px;
+}
+
+.section-2{
+    display: flex;
+    padding: 32px 24px;
+}
+.section-2a{
+    padding: 32px 24px;
+    border: 1px solid gray;
+}
+.section-2a img{
+    width: auto;
+    height:auto;
+}
+.section-2a h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-style: oblique;
+    text-align: left;
+    padding: 32px 24px;
+}
+.section-2a p{
+    font-size: 25px;
+    line-height: 25px;
+    font-style: oblique;
+    text-align: left;
+    color: grey;
+}
+.section-2a strong{
+    font-size: 20px;
+    line-height: 15px;
+    padding-top: 32px;
+    color: grey;
+}
+.section-2b{
+    padding: 16px;
+    min-width: 40%;
+    border-color:1px solid gray;
+}
+.data, .our-campus, .teacher{
+    display:flex;
+    min-height: 153px;
+    border: 15px;
+    padding: 10px;
+    border-color: gray;
+}
+.data img, .our-campus img, .teacher img{
+    width: 35%;
+    height: auto;
+    padding: 16px 16px;
+}
+.data-in{
+    justify-content: center;
+    padding: 5px;
+}
+.data-in h4{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.data-in p{
+    font: 20px;
+    padding: 8px 0px 8px 0px;
+    color: grey;
+}
+.data-in a{
+     color: blueviolet;
+}
+.teacher{
+    background-color: burlywood;
+}
+
+.start-learning h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 32px 0px 32px 0px;
+}
+.start{
+    display:flex;
+    flex-wrap: wrap;
+    width:auto;
+    padding: 0 72px 32px 72px;
+    justify-content: space-evenly;
+}
+.start img{
+    height:auto;
+    width: 100%;
+}
+#content{
+    padding: 16px 16px;
+    margin: auto;
+    width: 65%;
+    text-align: left;
+}
+#content h2, h4{
+    padding-bottom: 8px;
+}
+#content h4{
+    color: grey;
+}
+#content p{
+    padding-bottom: 24px;
+    text-align: left;
+    color: grey;
+}
+
+.thesis h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 32px 0px 32px 24px;
+}
+.thesis-ex{
+    display:flex;
+    width: 100%;
+}
+#urban{
+    padding: 0 24px 24px 24px;
+}
+#urban video{
+    height: auto;
+    width: 90%;
+    padding-bottom: 24px;
+}
+#urban h2{
+    padding-bottom: 8px;
+    font-size: 50px;
+}
+#urban p{
+    text-align: left;
+    color: gray;
+    font-size: 25px;
+}
+.next{
+    width: 60%;
+    height: auto;
+}
+#fisma, #now-then{
+    display: flex;
+}
+#fisma img, #now-then img{
+    width: 35%;
+    height:auto;
+    padding: 16px;
+}
+.fisma, .now-then{
+    width: 65%;
+    text-align: left;
+    padding: 16px;
+    margin: auto;
+}
+.fisma h2, .now-then h2{
+    font-size: 30px;
+}
+.fisma p, .now-then p{
+    text-align: left;
+    color: grey;
+    font-size: 20px;
+}
+#fisma{
+    background-color: burlywood;
+}
+
+.footer{
+    text-align: left;
+    font-style: normal;
+    font-size: 25px;
+    color: grey;
+    padding: 16px 0 0 24px;
+    border-color: grey;
+}
+
+.mobile{
+    display: none;
+}
